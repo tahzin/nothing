@@ -13,61 +13,6 @@
 }
 
 
-.menu
-{
-    float:center;
-    width:1000px;
-    
-    min-height: 50px;
-    margin: 0px auto;
-    
-}
-
-.menu ul
-{
-    margin: 0px;
-    padding: 0px;
-}
-.menu ul li
-{
-    float:left;
-    list-style: none;
-    border-right:1px solid #940b0d50;
-    border-left:1px solid #cc32328f;
-}
-
-.menu ul li:hover
-{
-    box-shadow: 0px 2px 10px;
-}
-
-.menu ul li:first-child
-{
-    border-left:0px solid;
-}
-
-.menu ul li:last-child
-{
-    border-right:0px solid;
-}
-
-.menu ul li a
-{
-    text-decoration: none;
-    padding:15px 220px;
-    display: block;
-    color:rgba(255, 0, 0, 0.932);
-    font-size: 17px;
-    font-family: verdana;
-    background-color: black;
-}
-
-.menu ul li a:hover
-{
-    color: rgb(17, 17, 194);
-    background-color: rgb(201, 119, 119);
-}
-
 
 h1{
     text-align: center;
