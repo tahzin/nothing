@@ -1,1 +1,156 @@
 /* Your responsive CSS styles go here */
+
+/* Media queries*/
+@media (min-width:1000px) {
+    
+    .backcolor {
+        background-color:black;
+        
+    }
+     
+    h1 {
+        text-align: center;
+        color:green;
+        font-size: 80px;
+        padding-left: 290px;
+        padding-top: 25px;
+        
+    }
+     /*h3{
+
+        text-align: center;
+        color: rgb(184, 117, 117);
+        font-size: 20px;
+        padding-left: 0px;
+        padding-top: 0px;
+
+}*/
+h3 {
+    color: rgb(184, 117, 117);
+    font-size: 30px;
+}
+
+  /*#link{
+    text-align: center;
+    background-color: rgba(212, 11, 11, 0.253);
+    height: 85px;
+    width: 870px;
+    padding-left: 110px;
+
+    
+}*/
+#link {
+    text-align: center;
+    background-color: rgba(212, 11, 11, 0.253);
+    height: 150px;
+    width: 730px;
+    padding-left: 600px;
+
+    
+}
+
+
+}
+@media (min-width:501px) and (max-width:999px) {
+
+    .backcolor {
+     background-color: black;
+     height:600px; 
+     width:999px;
+     margin-left:  0px auto;
+     margin-right:  0px auto;
+     padding-top: 0px;
+     padding-left: 0px;
+     
+        
+    }
+    h1 {
+        text-align: center;
+        color:green;
+        font-size: 80px;
+        padding-left: 200px;
+        padding-top: 25px;
+        
+    }
+
+    #link {
+        text-align: center;
+        background-color: rgba(212, 11, 11, 0.253);
+        height: 150px;
+        width: 4000px;
+        padding-left: 600px;
+    
+    }   
+
+    
+}
+
+@media (max-width:500px) {
+
+    .backcolor {
+        background-color:black;
+        height: 530px; 
+     width:470px;
+     margin-left:  0px auto;
+     margin-right:  0px auto;
+     padding-top: 0px;
+     padding-left: 0px;
+     
+        
+    }
+    #contact {
+
+        margin-left: 100px;
+    
+    }
+
+    #fm {
+
+        margin-left: 100px;
+    }
+
+    .imag {
+
+        /* float:right;
+        width:80%;
+         height:65%; 
+         margin-right: 150px;
+      */
+      
+      margin-right: 5px;
+      padding-top: 5px;
+      
+    }
+    h1 {
+       
+        float:left;
+        padding-left: 60px;
+        color:green;
+        font-size:50px;
+       
+        
+      
+        
+}
+       
+        
+        
+    
+    h3 {
+        text-align:center;
+        color: rgb(184, 117, 117);
+        font-size: 35px;
+        padding-top:10px;
+        
+}
+
+#link {
+    text-align: center;
+    background-color: rgba(212, 11, 11, 0.253);
+    height: 150px;
+    width: 362px;
+    padding-left: 110px;
+
+    
+}
+}
